@@ -1,0 +1,57 @@
+.menu {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .menu-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+.primary-button {
+  background-color: var(--accent-color);
+  border-radius: 6px;
+  font-weight: 700;
+  color: blue !important;
+  padding: 12px 24px;
+  box-shadow: 0 0 2px var(--secondary-text-color);
+  transition: 0.2s ease-out;
+}
+.primary-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+  .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    margin-bottom: 20px;
+  }
+  
+  .item-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .item-description {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .item-price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(bakery_background.jpg);
+    background-size: cover;
+}
+  

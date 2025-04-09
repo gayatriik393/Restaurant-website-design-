@@ -1,0 +1,52 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+.signup-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto;
+    text-align: center;
+  }
+  
+  .form-header {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
